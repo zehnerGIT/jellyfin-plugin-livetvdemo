@@ -1,0 +1,16 @@
+---
+name: "jellyfin-plugin-livetvdemo"
+guid: "49BF45C8-DE97-465A-BC5E-8CD9ACE1B10B"
+version: "1.0.0"
+nicename: "Template"
+description: "Short description about your plugin"
+overview: >
+  This is a longer description that can span more than one
+  line and include details about your plugin.
+category: "General"
+owner: "jellyfin"
+artifacts:
+  - "Jellyfin.Plugin.LiveTvDemo.dll"
+build_type: "dotnet"
+dotnet_configuration: "Release"
+dotnet_framework: "netstandard2.0"
