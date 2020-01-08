@@ -10,7 +10,7 @@ namespace Jellyfin.Plugin.LiveTvDemo
 {
     public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     {
-        public override string Name => "Template";
+        public override string Name => "LiveTvDemo";
 
         public override Guid Id => Guid.Parse("49BF45C8-DE97-465A-BC5E-8CD9ACE1B10B");
 
